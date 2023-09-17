@@ -41,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
                 animator.SetBool("IsJumping", true);
                 rb.velocity += new Vector2(0f, jumpSpeed);
                 isInTheAir = true;
+                HealthSystem.Instance.RestoreMana(10f);
             }
         }
     }
