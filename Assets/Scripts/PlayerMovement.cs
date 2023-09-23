@@ -11,18 +11,22 @@ public class PlayerMovement : MonoBehaviour
     private float runSpeed = 2f;
     [SerializeField]
     private float jumpSpeed = 4f;
+    [SerializeField]
+    private float teleportDistance = 4f;
 
     private float moveDirection = 0f;
     public bool isInTheAir = true;
     private Rigidbody2D rb;
     private Animator animator;
     private CapsuleCollider2D capsuleCollider;
+    public Transform playerTransform;
 
-    private void Start() 
+    private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();   
+        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
+        playerTransform = GetComponent<Transform>();
     }
 
     private void OnMove(InputValue value)
@@ -36,7 +40,8 @@ public class PlayerMovement : MonoBehaviour
         {
             if (capsuleCollider.IsTouchingLayers(
                 LayerMask.GetMask("Ground"))
-            ){
+            )
+            {
                 // Saltar
                 animator.SetBool("IsJumping", true);
                 rb.velocity += new Vector2(0f, jumpSpeed);
@@ -58,6 +63,10 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("Entra");
             rb.gravityScale = 2f;
         }
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            TeleportPlayer();
+        }
     }
 
     private void FlipSprite()
@@ -69,6 +78,7 @@ public class PlayerMovement : MonoBehaviour
                 1f,
                 1f
             );
+
         }
     }
 
@@ -89,7 +99,7 @@ public class PlayerMovement : MonoBehaviour
         );
     }
 
-    private void OnCollisionEnter2D(Collision2D other) 
+    private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.transform.CompareTag("Platform"))
         {
@@ -97,6 +107,18 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsJumping", false);
             isInTheAir = false;
             rb.gravityScale = 1f;
+        }
+    }
+    private void TeleportPlayer()
+    {
+        if (HealthSystem.Instance.manaPoint >= HealthSystem.Instance.maxManaPoint)
+        {
+            playerTransform.position = playerTransform.position + Vector3.right * teleportDistance;
+            HealthSystem.Instance.UseMana(HealthSystem.Instance.manaPoint);
+        }
+        else
+        {
+            Debug.Log("No tienes mana");
         }
     }
 }
