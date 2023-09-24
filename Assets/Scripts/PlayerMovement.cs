@@ -49,12 +49,12 @@ public class PlayerMovement : MonoBehaviour
     {
         Run();
         FlipSprite();
-        Debug.Log(isInTheAir);
-        Debug.Log((Mathf.Abs(rb.velocity.y) < Mathf.Epsilon));
+        //Debug.Log(isInTheAir);
+        //Debug.Log((Mathf.Abs(rb.velocity.y) < Mathf.Epsilon));
         if (isInTheAir && (Mathf.Abs(rb.velocity.y) < Mathf.Epsilon))
         {
             // Estoy en el punto mas alto del salto
-            Debug.Log("Entra");
+            //Debug.Log("Entra");
             rb.gravityScale = 2f;
         }
     }
