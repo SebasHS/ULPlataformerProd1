@@ -14,7 +14,7 @@ using UnityEngine.UI;
 
 public class HealthSystem : MonoBehaviour
 {
-	public static HealthSystem Instance;
+	public static HealthSystem Instance { get; private set; }
 
 	public Image currentHealthBar;
 	public Image currentHealthGlobe;
@@ -33,7 +33,7 @@ public class HealthSystem : MonoBehaviour
 	//==============================================================
 	public bool Regenerate = true;
 	public float regen = 0.1f;
-	private float timeleft = 0.0f;	// Left time for current interval
+	private float timeleft = 0.0f;  // Left time for current interval
 	public float regenUpdateInterval = 1f;
 
 	public bool GodMode;
@@ -43,22 +43,25 @@ public class HealthSystem : MonoBehaviour
 	//==============================================================
 	void Awake()
 	{
-		Instance = this;
+		if (Instance == null)
+		{
+			Instance = this;
+		}
 	}
-	
+
 	//==============================================================
 	// Awake
 	//==============================================================
-  	void Start()
+	void Start()
 	{
 		UpdateGraphics();
-		timeleft = regenUpdateInterval; 
+		timeleft = regenUpdateInterval;
 	}
 
 	//==============================================================
 	// Update
 	//==============================================================
-	void Update ()
+	void Update()
 	{
 		if (Regenerate)
 			Regen();
@@ -82,7 +85,7 @@ public class HealthSystem : MonoBehaviour
 			else
 			{
 				HealDamage(regen);
-				RestoreMana(regen);				
+				RestoreMana(regen);
 			}
 
 			UpdateGraphics();
@@ -97,8 +100,8 @@ public class HealthSystem : MonoBehaviour
 	private void UpdateHealthBar()
 	{
 		float ratio = hitPoint / maxHitPoint;
-		currentHealthBar.rectTransform.localPosition = new Vector3(currentHealthBar.rectTransform.rect.width * ratio - currentHealthBar.rectTransform.rect.width, 0, 0);
-		healthText.text = hitPoint.ToString ("0") + "/" + maxHitPoint.ToString ("0");
+		//currentHealthBar.rectTransform.localPosition = new Vector3(currentHealthBar.rectTransform.rect.width * ratio - currentHealthBar.rectTransform.rect.width, 0, 0);
+		healthText.text = hitPoint.ToString("0") + "/" + maxHitPoint.ToString("0");
 	}
 
 	private void UpdateHealthGlobe()
@@ -122,7 +125,7 @@ public class HealthSystem : MonoBehaviour
 	public void HealDamage(float Heal)
 	{
 		hitPoint += Heal;
-		if (hitPoint > maxHitPoint) 
+		if (hitPoint > maxHitPoint)
 			hitPoint = maxHitPoint;
 
 		UpdateGraphics();
@@ -141,7 +144,7 @@ public class HealthSystem : MonoBehaviour
 	{
 		float ratio = manaPoint / maxManaPoint;
 		currentManaBar.rectTransform.localPosition = new Vector3(currentManaBar.rectTransform.rect.width * ratio - currentManaBar.rectTransform.rect.width, 0, 0);
-		manaText.text = manaPoint.ToString ("0") + "/" + maxManaPoint.ToString ("0");
+		manaText.text = manaPoint.ToString("0") + "/" + maxManaPoint.ToString("0");
 	}
 
 	private void UpdateManaGlobe()
@@ -163,7 +166,7 @@ public class HealthSystem : MonoBehaviour
 	public void RestoreMana(float Mana)
 	{
 		manaPoint += Mana;
-		if (manaPoint > maxManaPoint) 
+		if (manaPoint > maxManaPoint)
 			manaPoint = maxManaPoint;
 
 		UpdateGraphics();
@@ -171,7 +174,7 @@ public class HealthSystem : MonoBehaviour
 	public void SetMaxMana(float max)
 	{
 		maxManaPoint += (int)(maxManaPoint * max / 100);
-		
+
 		UpdateGraphics();
 	}
 
@@ -193,7 +196,7 @@ public class HealthSystem : MonoBehaviour
 	{
 		// Player gets hurt. Do stuff.. play anim, sound..
 
-		PopupText.Instance.Popup("Ouch!", 1f, 1f); // Demo stuff!
+		//PopupText.Instance.Popup("Ouch!", 1f, 1f); // Demo stuff!
 
 		if (hitPoint < 1) // Health is Zero!!
 		{
@@ -210,7 +213,7 @@ public class HealthSystem : MonoBehaviour
 	IEnumerator PlayerDied()
 	{
 		// Player is dead. Do stuff.. play anim, sound..
-		PopupText.Instance.Popup("You have died!", 1f, 1f); // Demo stuff!
+		//PopupText.Instance.Popup("You have died!", 1f, 1f); // Demo stuff!
 
 		yield return null;
 	}

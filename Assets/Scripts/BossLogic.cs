@@ -10,8 +10,8 @@ public class BossLogic : MonoBehaviour
     [SerializeField] private Transform raycastPoint;
 
     public Transform player;
-    public int attackDamage = 20;
-    public int enragedAttackDamage = 40;
+    public float attackDamage = 0.5f;
+    public float enragedAttackDamage = 40;
     public Vector3 attackOffset;
     public float attackRange = 30f;
     private Rigidbody2D rb;
@@ -48,7 +48,8 @@ public class BossLogic : MonoBehaviour
             transform.right * -3f,
             Color.red
         );
-        
+
+        attackDamage = 0.5f;
     }
 
     // Update is called once per frame
@@ -81,13 +82,13 @@ public class BossLogic : MonoBehaviour
 
         LookAtPlayer();
         //Attack();
-        
+
         if (seguir)
         {
             //player = seguir.collider.transform;
             if (seguir.collider.name == "Player")
             {
-                if(!isFlipped)
+                if (!isFlipped)
                 {
                     seguirX = 1;
                 }

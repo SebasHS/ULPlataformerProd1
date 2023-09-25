@@ -354,13 +354,30 @@ public class PlayerMovement : MonoBehaviour
     {
         if (HealthSystem.Instance.manaPoint >= HealthSystem.Instance.maxManaPoint)
         {
-            playerTransform.position = playerTransform.position + Vector3.right * teleportDistance;
-            HealthSystem.Instance.UseMana(HealthSystem.Instance.manaPoint);
-            Debug.Log("Mover");
+            if (isFacingRight)
+            {
+                playerTransform.position = playerTransform.position + Vector3.right * teleportDistance;
+                HealthSystem.Instance.UseMana(HealthSystem.Instance.manaPoint);
+                Debug.Log("tp derecha");
+            }
+            else
+            {
+                playerTransform.position = playerTransform.position + Vector3.left * teleportDistance;
+                HealthSystem.Instance.UseMana(HealthSystem.Instance.manaPoint);
+                Debug.Log("tp izquierda");
+            }
+
         }
         else
         {
             Debug.Log("No tienes mana");
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.transform.CompareTag("Platform"))
+        {
+            Debug.Log("Mori xd");
         }
     }
 }
