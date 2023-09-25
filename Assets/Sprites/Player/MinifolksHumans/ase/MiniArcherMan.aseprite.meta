@@ -1,0 +1,1256 @@
+fileFormatVersion: 2
+guid: 26d610294bca7fb46897094ecf256cc4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: MiniArcherMan_Frame_0
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 237
+      width: 14
+      height: 15
+    spriteID: 1fe77b007732be64eb4d56e6a9e003e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 237}
+  - name: MiniArcherMan_Frame_1
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 28
+      width: 14
+      height: 15
+    spriteID: 9a94536a00a12e64cafd276476e98b46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 28}
+  - name: MiniArcherMan_Frame_2
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 207
+      width: 14
+      height: 13
+    spriteID: c6d5ae4c51e5efa43a9e54f6f46291e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 207}
+  - name: MiniArcherMan_Frame_3
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 139
+      width: 14
+      height: 14
+    spriteID: 6365130cc5297fc43bef52f7f318b258
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 139}
+  - name: MiniArcherMan_Frame_4
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 4
+      width: 15
+      height: 14
+    spriteID: 198020a830645f349a9897056f8ae97f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 4}
+  - name: MiniArcherMan_Frame_5
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 228
+      width: 13
+      height: 14
+    spriteID: c35d3b13da600fe49aa0a701d1afefc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 228}
+  - name: MiniArcherMan_Frame_6
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 161
+      width: 13
+      height: 15
+    spriteID: 5abc2a357410dc5498b759267442ab53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 161}
+  - name: MiniArcherMan_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 72
+      width: 12
+      height: 14
+    spriteID: f8833be2f0f11c14caf32a5c6dcc890b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 72}
+  - name: MiniArcherMan_Frame_8
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 4
+      width: 13
+      height: 14
+    spriteID: edd808fd33a24bd43b0393b2b48e5e84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 4}
+  - name: MiniArcherMan_Frame_9
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 51
+      width: 14
+      height: 15
+    spriteID: 6b971cbc9ba7ead469fbf32492e80637
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 51}
+  - name: MiniArcherMan_Frame_10
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 74
+      width: 14
+      height: 15
+    spriteID: a45ef96bb1d1104458deb3621c1ec82f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 74}
+  - name: MiniArcherMan_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 4
+      width: 14
+      height: 16
+    spriteID: b64955632cc52794f8a08698f9a73a53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 4}
+  - name: MiniArcherMan_Frame_12
+    originalName: 
+    pivot: {x: 0.5625, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 27
+      width: 16
+      height: 16
+    spriteID: 988b68855f6ccef408e336af7927e490
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 27}
+  - name: MiniArcherMan_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 97
+      width: 14
+      height: 15
+    spriteID: caac50f6eface3e4dba0332f63f8ff55
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 97}
+  - name: MiniArcherMan_Frame_14
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 145
+      width: 15
+      height: 15
+    spriteID: 7038df7e4f82556439518addf786c019
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 145}
+  - name: MiniArcherMan_Frame_15
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 51
+      width: 15
+      height: 17
+    spriteID: 2dc286f93430f5e4e8e8320ed10ef439
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 51}
+  - name: MiniArcherMan_Frame_16
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 26
+      width: 15
+      height: 14
+    spriteID: 32d6b699b8083e441bb7e3f641b52cd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 26}
+  - name: MiniArcherMan_Frame_17
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 120
+      width: 14
+      height: 15
+    spriteID: 3e132ec9477b08345b6b9d060acbb7f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 120}
+  - name: MiniArcherMan_Frame_18
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 143
+      width: 14
+      height: 15
+    spriteID: 10530cd980d8bf446bb31297ddc56340
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 143}
+  - name: MiniArcherMan_Frame_19
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 168
+      width: 15
+      height: 15
+    spriteID: d5cae49b6958a9d4290b691be503b12a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 168}
+  - name: MiniArcherMan_Frame_20
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 4
+      width: 15
+      height: 11
+    spriteID: 66373cb1b53da3941a9e5ae2b68322f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 4}
+  - name: MiniArcherMan_Frame_21
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 23
+      width: 17
+      height: 6
+    spriteID: 1295835df8f95034091529844049a3eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 23}
+  - name: MiniArcherMan_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 37
+      width: 18
+      height: 4
+    spriteID: e3060525db0c17344a4c8c276a3d7fc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 37}
+  - name: MiniArcherMan_Frame_23
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 166
+      width: 14
+      height: 15
+    spriteID: 2139f328d0a566a42aaf6bd9cc1f78c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 166}
+  - name: MiniArcherMan_Frame_24
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 191
+      width: 15
+      height: 15
+    spriteID: 01272efaa0f21fe42acd4ea99a7eb07d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 191}
+  - name: MiniArcherMan_Frame_25
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 189
+      width: 14
+      height: 15
+    spriteID: 98f9c3a5b72375a48acdfefdb2cbb149
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 189}
+  - name: MiniArcherMan_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 99
+      width: 16
+      height: 15
+    spriteID: 7ca9ba498ccea7840ac4b891f625f154
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 99}
+  - name: MiniArcherMan_Frame_27
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 212
+      width: 14
+      height: 15
+    spriteID: cee05acd4b8d6ef46b90325099e3de1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 212}
+  - name: MiniArcherMan_Frame_28
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 18
+      height: 15
+    spriteID: ebfd794709f56534a9af4c0fbfdfe2e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: MiniArcherMan_Frame_29
+    originalName: 
+    pivot: {x: 0.4117647, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 76
+      width: 17
+      height: 15
+    spriteID: 7dc0b6970f4cc5449a63eb4b4d08d6c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 76}
+  - name: MiniArcherMan_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 122
+      width: 16
+      height: 15
+    spriteID: 72371635992a20a45b466f90dc9dfba1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 122}
+  - name: MiniArcherMan_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 235
+      width: 14
+      height: 15
+    spriteID: 8659ed14f54b46d40ac5ccb4001d3b0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 235}
+  - name: MiniArcherMan_Frame_32
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 48
+      width: 14
+      height: 15
+    spriteID: 88f9fa8f329ef1b4294a654f2e28cb93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 48}
+  - name: MiniArcherMan_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 71
+      width: 14
+      height: 15
+    spriteID: da3bea2249be05a4cb7c8eabba5687c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 71}
+  - name: MiniArcherMan_Frame_34
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 94
+      width: 14
+      height: 15
+    spriteID: 029475cfd6e43b141a033c4498032c5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 94}
+  - name: MiniArcherMan_Frame_35
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 184
+      width: 13
+      height: 15
+    spriteID: f21f4a14ed748d4418fe323b236d1b42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 184}
+  - name: MiniArcherMan_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 26
+      width: 12
+      height: 15
+    spriteID: d0a16fb845e3afb4caaad21b1037c0b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 26}
+  - name: MiniArcherMan_Frame_37
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 49
+      width: 12
+      height: 15
+    spriteID: 866258a430a78434cacb71486eb5a1e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 49}
+  - name: MiniArcherMan_Frame_38
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 117
+      width: 15
+      height: 14
+    spriteID: ffa452ecd6cf60142998e14d34653b2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 117}
+  - name: MiniArcherMan_Frame_39
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 214
+      width: 15
+      height: 15
+    spriteID: f3f9e0cdd9ead8244a75491a157ac00a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 214}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -834591130
+    name: MiniArcherMan
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: MiniArcherMan_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 1fe77b007732be64eb4d56e6a9e003e1
+    - name: MiniArcherMan_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 9a94536a00a12e64cafd276476e98b46
+    - name: MiniArcherMan_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 13
+      spriteId: c6d5ae4c51e5efa43a9e54f6f46291e8
+    - name: MiniArcherMan_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 14
+      spriteId: 6365130cc5297fc43bef52f7f318b258
+    - name: MiniArcherMan_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 9
+        y: 1
+        width: 15
+        height: 14
+      spriteId: 198020a830645f349a9897056f8ae97f
+    - name: MiniArcherMan_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 14
+      spriteId: c35d3b13da600fe49aa0a701d1afefc9
+    - name: MiniArcherMan_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 15
+      spriteId: 5abc2a357410dc5498b759267442ab53
+    - name: MiniArcherMan_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 10
+        y: 1
+        width: 12
+        height: 14
+      spriteId: f8833be2f0f11c14caf32a5c6dcc890b
+    - name: MiniArcherMan_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 14
+      spriteId: edd808fd33a24bd43b0393b2b48e5e84
+    - name: MiniArcherMan_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 6b971cbc9ba7ead469fbf32492e80637
+    - name: MiniArcherMan_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: a45ef96bb1d1104458deb3621c1ec82f
+    - name: MiniArcherMan_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 16
+      spriteId: b64955632cc52794f8a08698f9a73a53
+    - name: MiniArcherMan_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 7
+        y: 1
+        width: 16
+        height: 16
+      spriteId: 988b68855f6ccef408e336af7927e490
+    - name: MiniArcherMan_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 15
+      spriteId: caac50f6eface3e4dba0332f63f8ff55
+    - name: MiniArcherMan_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 9
+        y: 1
+        width: 15
+        height: 15
+      spriteId: 7038df7e4f82556439518addf786c019
+    - name: MiniArcherMan_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 9
+        y: 1
+        width: 15
+        height: 17
+      spriteId: 2dc286f93430f5e4e8e8320ed10ef439
+    - name: MiniArcherMan_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 9
+        y: 1
+        width: 15
+        height: 14
+      spriteId: 32d6b699b8083e441bb7e3f641b52cd6
+    - name: MiniArcherMan_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 3e132ec9477b08345b6b9d060acbb7f7
+    - name: MiniArcherMan_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 10530cd980d8bf446bb31297ddc56340
+    - name: MiniArcherMan_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 9
+        y: 1
+        width: 15
+        height: 15
+      spriteId: d5cae49b6958a9d4290b691be503b12a
+    - name: MiniArcherMan_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 10
+        y: 1
+        width: 15
+        height: 11
+      spriteId: 66373cb1b53da3941a9e5ae2b68322f5
+    - name: MiniArcherMan_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 8
+        y: 1
+        width: 17
+        height: 6
+      spriteId: 1295835df8f95034091529844049a3eb
+    - name: MiniArcherMan_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 7
+        y: 1
+        width: 18
+        height: 4
+      spriteId: e3060525db0c17344a4c8c276a3d7fc9
+    - name: MiniArcherMan_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 2139f328d0a566a42aaf6bd9cc1f78c8
+    - name: MiniArcherMan_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 10
+        y: 1
+        width: 15
+        height: 15
+      spriteId: 01272efaa0f21fe42acd4ea99a7eb07d
+    - name: MiniArcherMan_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 98f9c3a5b72375a48acdfefdb2cbb149
+    - name: MiniArcherMan_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 15
+      spriteId: 7ca9ba498ccea7840ac4b891f625f154
+    - name: MiniArcherMan_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: cee05acd4b8d6ef46b90325099e3de1d
+    - name: MiniArcherMan_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 10
+        y: 1
+        width: 18
+        height: 15
+      spriteId: ebfd794709f56534a9af4c0fbfdfe2e0
+    - name: MiniArcherMan_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 9
+        y: 1
+        width: 17
+        height: 15
+      spriteId: 7dc0b6970f4cc5449a63eb4b4d08d6c7
+    - name: MiniArcherMan_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 15
+      spriteId: 72371635992a20a45b466f90dc9dfba1
+    - name: MiniArcherMan_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 8659ed14f54b46d40ac5ccb4001d3b0d
+    - name: MiniArcherMan_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 8
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 88f9fa8f329ef1b4294a654f2e28cb93
+    - name: MiniArcherMan_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 15
+      spriteId: da3bea2249be05a4cb7c8eabba5687c9
+    - name: MiniArcherMan_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 029475cfd6e43b141a033c4498032c5b
+    - name: MiniArcherMan_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 15
+      spriteId: f21f4a14ed748d4418fe323b236d1b42
+    - name: MiniArcherMan_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 10
+        y: 1
+        width: 12
+        height: 15
+      spriteId: d0a16fb845e3afb4caaad21b1037c0b6
+    - name: MiniArcherMan_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 9
+        y: 1
+        width: 12
+        height: 15
+      spriteId: 866258a430a78434cacb71486eb5a1e6
+    - name: MiniArcherMan_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 10
+        y: 1
+        width: 15
+        height: 14
+      spriteId: ffa452ecd6cf60142998e14d34653b2f
+    - name: MiniArcherMan_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 10
+        y: 1
+        width: 15
+        height: 15
+      spriteId: f3f9e0cdd9ead8244a75491a157ac00a
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

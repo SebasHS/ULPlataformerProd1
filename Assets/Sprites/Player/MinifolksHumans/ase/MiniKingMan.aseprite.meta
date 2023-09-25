@@ -1,0 +1,1340 @@
+fileFormatVersion: 2
+guid: 9d93aefbcb8c27d49b3a9cb299e6dd5f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: MiniKingMan_Frame_0
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 172
+      width: 13
+      height: 13
+    spriteID: 8b94e8f64668f3348b7ba7e5b9cedb2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 172}
+  - name: MiniKingMan_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 4
+      width: 14
+      height: 12
+    spriteID: ea4b6a9fd07c79d45aabe2398af07128
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 4}
+  - name: MiniKingMan_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 24
+      width: 14
+      height: 12
+    spriteID: e9387e6b27cb7db4ca2d441a6a383b4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 24}
+  - name: MiniKingMan_Frame_3
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 193
+      width: 13
+      height: 13
+    spriteID: d73d06e930d086e4299061bcf3737a3f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 193}
+  - name: MiniKingMan_Frame_4
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 214
+      width: 13
+      height: 13
+    spriteID: 33c5dfd901b441041bf541edcf17fda1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 214}
+  - name: MiniKingMan_Frame_5
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 151
+      width: 12
+      height: 13
+    spriteID: e9d3e37917e69364eb99bc58f82b2d47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 151}
+  - name: MiniKingMan_Frame_6
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 172
+      width: 12
+      height: 13
+    spriteID: 2bec1975f80860d4c95c0a7cddcacd30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 172}
+  - name: MiniKingMan_Frame_7
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 193
+      width: 12
+      height: 12
+    spriteID: 674ead4b7044b5e49b94964a67b86eb5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 193}
+  - name: MiniKingMan_Frame_8
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 235
+      width: 13
+      height: 13
+    spriteID: 124b84904a176ee45818c07339bceae1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 235}
+  - name: MiniKingMan_Frame_9
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 4
+      width: 13
+      height: 13
+    spriteID: 1062ea5c5265b1642920b79c0e9aabdc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 4}
+  - name: MiniKingMan_Frame_10
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 132
+      width: 15
+      height: 12
+    spriteID: af03eb52a52824a4f83671b8b2dda364
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 132}
+  - name: MiniKingMan_Frame_11
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 25
+      width: 13
+      height: 13
+    spriteID: 837252550284fe942b344dd99f747afb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 25}
+  - name: MiniKingMan_Frame_12
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 25
+      width: 14
+      height: 14
+    spriteID: cce01d4dd6732bf46b00ddcb4185bcbe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 25}
+  - name: MiniKingMan_Frame_13
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 213
+      width: 12
+      height: 12
+    spriteID: 086a24c1b35a0c847a458dbda2c08a22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 213}
+  - name: MiniKingMan_Frame_14
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 46
+      width: 13
+      height: 13
+    spriteID: a6e2f655bdf8446489a725b901d033dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 46}
+  - name: MiniKingMan_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 118
+      width: 16
+      height: 14
+    spriteID: b10fa1376b757824aaa975bfe20cef0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 118}
+  - name: MiniKingMan_Frame_16
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 67
+      width: 13
+      height: 13
+    spriteID: 26b134de62244f94f99ce26cbfed3d42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 67}
+  - name: MiniKingMan_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 90
+      width: 14
+      height: 13
+    spriteID: 6a57ba39bd5fb0c498cc737a3f07f7da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 90}
+  - name: MiniKingMan_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 97
+      width: 18
+      height: 13
+    spriteID: e686fb975036629438ff44c9c93fa3b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 97}
+  - name: MiniKingMan_Frame_19
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 28
+      width: 20
+      height: 13
+    spriteID: f67cc2aa0486f694ca46356c67457a98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 28}
+  - name: MiniKingMan_Frame_20
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 207
+      width: 15
+      height: 14
+    spriteID: b768072489e34864fbaefd082c031b90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 207}
+  - name: MiniKingMan_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 47
+      width: 14
+      height: 14
+    spriteID: 6b927b7b9e739fb448e70f48e7174126
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 47}
+  - name: MiniKingMan_Frame_22
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 229
+      width: 15
+      height: 14
+    spriteID: d66c88b15a65890428eca343409a782d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 229}
+  - name: MiniKingMan_Frame_23
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 4
+      width: 15
+      height: 11
+    spriteID: 102f8491c7fcb0344be5b65777507965
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 4}
+  - name: MiniKingMan_Frame_24
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 23
+      width: 15
+      height: 11
+    spriteID: 2ed4c8a3ba2428f42bd537068744b6cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 23}
+  - name: MiniKingMan_Frame_25
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 88
+      width: 13
+      height: 13
+    spriteID: 1a1207aa32736bd4aa7eb3e4f5cc3df1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 88}
+  - name: MiniKingMan_Frame_26
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 109
+      width: 13
+      height: 13
+    spriteID: 9a91fe5ca74be454b85bb35f5a833b78
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 109}
+  - name: MiniKingMan_Frame_27
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 152
+      width: 15
+      height: 12
+    spriteID: 03748abd33a3ff74e967cbeff1867f2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 152}
+  - name: MiniKingMan_Frame_28
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 44
+      width: 14
+      height: 12
+    spriteID: e8e4d2ffa0c664942a1b285d43fb5d32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 44}
+  - name: MiniKingMan_Frame_29
+    originalName: 
+    pivot: {x: 0.35714287, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 64
+      width: 14
+      height: 12
+    spriteID: 9dae3b834025290488a26a45c861eb06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 64}
+  - name: MiniKingMan_Frame_30
+    originalName: 
+    pivot: {x: 0.29411766, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 58
+      width: 17
+      height: 7
+    spriteID: 37a9d3de0f3255340b3c860d626479e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 58}
+  - name: MiniKingMan_Frame_31
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 42
+      width: 15
+      height: 8
+    spriteID: abb35bd608ee3044cace2dd1fdb0a759
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 42}
+  - name: MiniKingMan_Frame_32
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 73
+      width: 15
+      height: 7
+    spriteID: 58288112fa341d94abe4bfbed2d5c46e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 73}
+  - name: MiniKingMan_Frame_33
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 130
+      width: 13
+      height: 13
+    spriteID: d379b78e0accf384cb71a121071b9203
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 130}
+  - name: MiniKingMan_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 111
+      width: 14
+      height: 13
+    spriteID: 2ffd06c75a2ed8645b28224ae70f86d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 111}
+  - name: MiniKingMan_Frame_35
+    originalName: 
+    pivot: {x: 0.5625, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 49
+      width: 16
+      height: 16
+    spriteID: b9e8a04e5dfaf4f45a5ac32000d708d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 49}
+  - name: MiniKingMan_Frame_36
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 73
+      width: 15
+      height: 16
+    spriteID: 475c650a98a9c4b479e47e86748dc7cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 73}
+  - name: MiniKingMan_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 140
+      width: 14
+      height: 16
+    spriteID: 22af2a9f182d7cc449cfd0db4c62ebf7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 140}
+  - name: MiniKingMan_Frame_38
+    originalName: 
+    pivot: {x: 0.65000004, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 20
+      height: 16
+    spriteID: 3de7005631692404bb13dca999fea929
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: MiniKingMan_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 164
+      width: 16
+      height: 14
+    spriteID: 5779a0b7b79d0a246af0b9cc11acfb2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 164}
+  - name: MiniKingMan_Frame_40
+    originalName: 
+    pivot: {x: 0.29411766, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 186
+      width: 17
+      height: 13
+    spriteID: a586d710809da1a418b396d7cc1d37c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 186}
+  - name: MiniKingMan_Frame_41
+    originalName: 
+    pivot: {x: 0.25, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 4
+      width: 16
+      height: 13
+    spriteID: 4b8277b61514c82458549c396c30b128
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 4}
+  - name: MiniKingMan_Frame_42
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 69
+      width: 15
+      height: 13
+    spriteID: a87cf6bd290be6b49b6d070d7de080a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 69}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 75297098
+    name: MiniKingMan
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: MiniKingMan_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 8b94e8f64668f3348b7ba7e5b9cedb2d
+    - name: MiniKingMan_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 12
+      spriteId: ea4b6a9fd07c79d45aabe2398af07128
+    - name: MiniKingMan_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 12
+      spriteId: e9387e6b27cb7db4ca2d441a6a383b4d
+    - name: MiniKingMan_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 13
+      spriteId: d73d06e930d086e4299061bcf3737a3f
+    - name: MiniKingMan_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 33c5dfd901b441041bf541edcf17fda1
+    - name: MiniKingMan_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 9
+        y: 1
+        width: 12
+        height: 13
+      spriteId: e9d3e37917e69364eb99bc58f82b2d47
+    - name: MiniKingMan_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 9
+        y: 1
+        width: 12
+        height: 13
+      spriteId: 2bec1975f80860d4c95c0a7cddcacd30
+    - name: MiniKingMan_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 9
+        y: 1
+        width: 12
+        height: 12
+      spriteId: 674ead4b7044b5e49b94964a67b86eb5
+    - name: MiniKingMan_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 9
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 124b84904a176ee45818c07339bceae1
+    - name: MiniKingMan_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 9
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 1062ea5c5265b1642920b79c0e9aabdc
+    - name: MiniKingMan_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 9
+        y: 1
+        width: 15
+        height: 12
+      spriteId: af03eb52a52824a4f83671b8b2dda364
+    - name: MiniKingMan_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 837252550284fe942b344dd99f747afb
+    - name: MiniKingMan_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 8
+        y: 1
+        width: 14
+        height: 14
+      spriteId: cce01d4dd6732bf46b00ddcb4185bcbe
+    - name: MiniKingMan_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 9
+        y: 1
+        width: 12
+        height: 12
+      spriteId: 086a24c1b35a0c847a458dbda2c08a22
+    - name: MiniKingMan_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 13
+      spriteId: a6e2f655bdf8446489a725b901d033dc
+    - name: MiniKingMan_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 14
+      spriteId: b10fa1376b757824aaa975bfe20cef0f
+    - name: MiniKingMan_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 26b134de62244f94f99ce26cbfed3d42
+    - name: MiniKingMan_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 13
+      spriteId: 6a57ba39bd5fb0c498cc737a3f07f7da
+    - name: MiniKingMan_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 7
+        y: 1
+        width: 18
+        height: 13
+      spriteId: e686fb975036629438ff44c9c93fa3b2
+    - name: MiniKingMan_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 7
+        y: 1
+        width: 20
+        height: 13
+      spriteId: f67cc2aa0486f694ca46356c67457a98
+    - name: MiniKingMan_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 9
+        y: 1
+        width: 15
+        height: 14
+      spriteId: b768072489e34864fbaefd082c031b90
+    - name: MiniKingMan_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 14
+      spriteId: 6b927b7b9e739fb448e70f48e7174126
+    - name: MiniKingMan_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 14
+      spriteId: d66c88b15a65890428eca343409a782d
+    - name: MiniKingMan_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 11
+      spriteId: 102f8491c7fcb0344be5b65777507965
+    - name: MiniKingMan_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 11
+      spriteId: 2ed4c8a3ba2428f42bd537068744b6cd
+    - name: MiniKingMan_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 1a1207aa32736bd4aa7eb3e4f5cc3df1
+    - name: MiniKingMan_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 9a91fe5ca74be454b85bb35f5a833b78
+    - name: MiniKingMan_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 9
+        y: 1
+        width: 15
+        height: 12
+      spriteId: 03748abd33a3ff74e967cbeff1867f2b
+    - name: MiniKingMan_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 12
+      spriteId: e8e4d2ffa0c664942a1b285d43fb5d32
+    - name: MiniKingMan_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 11
+        y: 1
+        width: 14
+        height: 12
+      spriteId: 9dae3b834025290488a26a45c861eb06
+    - name: MiniKingMan_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 11
+        y: 1
+        width: 17
+        height: 7
+      spriteId: 37a9d3de0f3255340b3c860d626479e3
+    - name: MiniKingMan_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 11
+        y: 1
+        width: 15
+        height: 8
+      spriteId: abb35bd608ee3044cace2dd1fdb0a759
+    - name: MiniKingMan_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 11
+        y: 1
+        width: 15
+        height: 7
+      spriteId: 58288112fa341d94abe4bfbed2d5c46e
+    - name: MiniKingMan_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 13
+      spriteId: d379b78e0accf384cb71a121071b9203
+    - name: MiniKingMan_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 13
+      spriteId: 2ffd06c75a2ed8645b28224ae70f86d6
+    - name: MiniKingMan_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 7
+        y: 1
+        width: 16
+        height: 16
+      spriteId: b9e8a04e5dfaf4f45a5ac32000d708d6
+    - name: MiniKingMan_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 16
+      spriteId: 475c650a98a9c4b479e47e86748dc7cb
+    - name: MiniKingMan_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 16
+      spriteId: 22af2a9f182d7cc449cfd0db4c62ebf7
+    - name: MiniKingMan_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 3
+        y: 1
+        width: 20
+        height: 16
+      spriteId: 3de7005631692404bb13dca999fea929
+    - name: MiniKingMan_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 14
+      spriteId: 5779a0b7b79d0a246af0b9cc11acfb2a
+    - name: MiniKingMan_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 11
+        y: 1
+        width: 17
+        height: 13
+      spriteId: a586d710809da1a418b396d7cc1d37c4
+    - name: MiniKingMan_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 12
+        y: 1
+        width: 16
+        height: 13
+      spriteId: 4b8277b61514c82458549c396c30b128
+    - name: MiniKingMan_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 11
+        y: 1
+        width: 15
+        height: 13
+      spriteId: a87cf6bd290be6b49b6d070d7de080a2
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

@@ -1,0 +1,1088 @@
+fileFormatVersion: 2
+guid: 95175aeabd4f73444833f1e67236b4ce
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: MiniPrinceMan_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 205
+      width: 12
+      height: 15
+    spriteID: 3da740b9999a4a94e9d3e71131cc657b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 205}
+  - name: MiniPrinceMan_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 228
+      width: 12
+      height: 15
+    spriteID: 3fa758b56b762c842b8cceae0731523f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 228}
+  - name: MiniPrinceMan_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 138
+      width: 12
+      height: 14
+    spriteID: de253bffeb1610644bfe5684a796efee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 138}
+  - name: MiniPrinceMan_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 160
+      width: 12
+      height: 14
+    spriteID: a55812a9395147f46903208a8b309d74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 160}
+  - name: MiniPrinceMan_Frame_4
+    originalName: 
+    pivot: {x: 0.5625, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 96
+      width: 16
+      height: 15
+    spriteID: 4e7d7e54d38853a47a3bee3ea32a9fd9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 96}
+  - name: MiniPrinceMan_Frame_5
+    originalName: 
+    pivot: {x: 0.6, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 209
+      width: 15
+      height: 15
+    spriteID: 4a96450cc3a10554f8075fdf51b04674
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 209}
+  - name: MiniPrinceMan_Frame_6
+    originalName: 
+    pivot: {x: 0.6, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 119
+      width: 15
+      height: 16
+    spriteID: 7b3338955830f0a47b380e0115a8b1b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 119}
+  - name: MiniPrinceMan_Frame_7
+    originalName: 
+    pivot: {x: 0.6428572, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 51
+      width: 14
+      height: 15
+    spriteID: a0fe4311138edcf499ab1b541f92f813
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 51}
+  - name: MiniPrinceMan_Frame_8
+    originalName: 
+    pivot: {x: 0.6, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 232
+      width: 15
+      height: 15
+    spriteID: 83d349901c327a84c8f89a47ef09df4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 232}
+  - name: MiniPrinceMan_Frame_9
+    originalName: 
+    pivot: {x: 0.5625, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 25
+      width: 16
+      height: 17
+    spriteID: e669c89bccaa8fb4b8e2e8f257341ca0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 25}
+  - name: MiniPrinceMan_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 25
+      width: 12
+      height: 15
+    spriteID: e77db3c0f2495ad41b5ecbdb96b65407
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 25}
+  - name: MiniPrinceMan_Frame_11
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 118
+      width: 13
+      height: 15
+    spriteID: cfd6e69c1955ee04c82a439ab7268a73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 118}
+  - name: MiniPrinceMan_Frame_12
+    originalName: 
+    pivot: {x: 0.6666667, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 21
+      height: 13
+    spriteID: 2668343c45b990d4aadd6d9a446e70f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: MiniPrinceMan_Frame_13
+    originalName: 
+    pivot: {x: 0.6, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 4
+      width: 15
+      height: 15
+    spriteID: 302786f631d25704faac59e09a264b1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 4}
+  - name: MiniPrinceMan_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 27
+      width: 14
+      height: 16
+    spriteID: 04e8cbc9d0ff8844cb77688fe98f8e28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 27}
+  - name: MiniPrinceMan_Frame_15
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 50
+      width: 15
+      height: 17
+    spriteID: 96524de7d104cf9419431472e51a7db0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 50}
+  - name: MiniPrinceMan_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 163
+      width: 14
+      height: 17
+    spriteID: 6aacf208e3cac5e4bac199ff31f49378
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 163}
+  - name: MiniPrinceMan_Frame_17
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 74
+      width: 14
+      height: 14
+    spriteID: d05d110db1b6d3845b2adc94249ea5c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 74}
+  - name: MiniPrinceMan_Frame_18
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 141
+      width: 13
+      height: 14
+    spriteID: d3a7c4196abb363499182aabb8085632
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 141}
+  - name: MiniPrinceMan_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 48
+      width: 12
+      height: 15
+    spriteID: 659a807f78df1be418c92c96ace24794
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 48}
+  - name: MiniPrinceMan_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 71
+      width: 12
+      height: 15
+    spriteID: 3abb0db180040d849be5690cd2f966c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 71}
+  - name: MiniPrinceMan_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 96
+      width: 14
+      height: 14
+    spriteID: 5762e641d0aeb11458577cdcf0d9a801
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 96}
+  - name: MiniPrinceMan_Frame_22
+    originalName: 
+    pivot: {x: 0.6111111, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 4
+      width: 18
+      height: 12
+    spriteID: 9bb5ebfae25f9d54cba3ad7c86ae2808
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 4}
+  - name: MiniPrinceMan_Frame_23
+    originalName: 
+    pivot: {x: 0.65000004, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 143
+      width: 20
+      height: 12
+    spriteID: 1b1e771bf5b78674c8f61d239d3833c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 143}
+  - name: MiniPrinceMan_Frame_24
+    originalName: 
+    pivot: {x: 0.52380955, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 40
+      width: 21
+      height: 8
+    spriteID: e316575d0d34fbd4492fccc652fa1e2c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 40}
+  - name: MiniPrinceMan_Frame_25
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 24
+      width: 22
+      height: 8
+    spriteID: ce9556ffba3a5414293ed12dd211fcdd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 24}
+  - name: MiniPrinceMan_Frame_26
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 56
+      width: 22
+      height: 7
+    spriteID: 651e57a49de6604439a19abfbbc63227
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 56}
+  - name: MiniPrinceMan_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 94
+      width: 12
+      height: 15
+    spriteID: 73753f4d12d88344685ceed129a0ee33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 94}
+  - name: MiniPrinceMan_Frame_28
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 117
+      width: 13
+      height: 13
+    spriteID: 6dcf917ea0809fb419bcbc76948feac1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 117}
+  - name: MiniPrinceMan_Frame_29
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 163
+      width: 14
+      height: 13
+    spriteID: e31e6ca72a1dbd94983200859403e994
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 163}
+  - name: MiniPrinceMan_Frame_30
+    originalName: 
+    pivot: {x: 0.4117647, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 4
+      width: 17
+      height: 13
+    spriteID: f74b3dc7ece336f4b97d5020b68460d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 4}
+  - name: MiniPrinceMan_Frame_31
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 75
+      width: 19
+      height: 13
+    spriteID: 20f471a93c334cc4095808aee1bfd81b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 75}
+  - name: MiniPrinceMan_Frame_32
+    originalName: 
+    pivot: {x: 0.2777778, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 188
+      width: 18
+      height: 13
+    spriteID: cca32f1ad4343434cb7d948bfa5e9e5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 188}
+  - name: MiniPrinceMan_Frame_33
+    originalName: 
+    pivot: {x: 0.35714287, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 184
+      width: 14
+      height: 13
+    spriteID: f5bba2ac1651d504994cb8961a36ac48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 184}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1206264688
+    name: MiniPrinceMan
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: MiniPrinceMan_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 12
+        height: 15
+      spriteId: 3da740b9999a4a94e9d3e71131cc657b
+    - name: MiniPrinceMan_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 10
+        y: 1
+        width: 12
+        height: 15
+      spriteId: 3fa758b56b762c842b8cceae0731523f
+    - name: MiniPrinceMan_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 10
+        y: 1
+        width: 12
+        height: 14
+      spriteId: de253bffeb1610644bfe5684a796efee
+    - name: MiniPrinceMan_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 10
+        y: 1
+        width: 12
+        height: 14
+      spriteId: a55812a9395147f46903208a8b309d74
+    - name: MiniPrinceMan_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 7
+        y: 1
+        width: 16
+        height: 15
+      spriteId: 4e7d7e54d38853a47a3bee3ea32a9fd9
+    - name: MiniPrinceMan_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 7
+        y: 1
+        width: 15
+        height: 15
+      spriteId: 4a96450cc3a10554f8075fdf51b04674
+    - name: MiniPrinceMan_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 7
+        y: 1
+        width: 15
+        height: 16
+      spriteId: 7b3338955830f0a47b380e0115a8b1b1
+    - name: MiniPrinceMan_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 7
+        y: 1
+        width: 14
+        height: 15
+      spriteId: a0fe4311138edcf499ab1b541f92f813
+    - name: MiniPrinceMan_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 7
+        y: 1
+        width: 15
+        height: 15
+      spriteId: 83d349901c327a84c8f89a47ef09df4f
+    - name: MiniPrinceMan_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 7
+        y: 1
+        width: 16
+        height: 17
+      spriteId: e669c89bccaa8fb4b8e2e8f257341ca0
+    - name: MiniPrinceMan_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 10
+        y: 1
+        width: 12
+        height: 15
+      spriteId: e77db3c0f2495ad41b5ecbdb96b65407
+    - name: MiniPrinceMan_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 9
+        y: 1
+        width: 13
+        height: 15
+      spriteId: cfd6e69c1955ee04c82a439ab7268a73
+    - name: MiniPrinceMan_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 2
+        y: 1
+        width: 21
+        height: 13
+      spriteId: 2668343c45b990d4aadd6d9a446e70f3
+    - name: MiniPrinceMan_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 7
+        y: 1
+        width: 15
+        height: 15
+      spriteId: 302786f631d25704faac59e09a264b1a
+    - name: MiniPrinceMan_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 16
+      spriteId: 04e8cbc9d0ff8844cb77688fe98f8e28
+    - name: MiniPrinceMan_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 17
+      spriteId: 96524de7d104cf9419431472e51a7db0
+    - name: MiniPrinceMan_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 17
+      spriteId: 6aacf208e3cac5e4bac199ff31f49378
+    - name: MiniPrinceMan_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 8
+        y: 1
+        width: 14
+        height: 14
+      spriteId: d05d110db1b6d3845b2adc94249ea5c1
+    - name: MiniPrinceMan_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 9
+        y: 1
+        width: 13
+        height: 14
+      spriteId: d3a7c4196abb363499182aabb8085632
+    - name: MiniPrinceMan_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 10
+        y: 1
+        width: 12
+        height: 15
+      spriteId: 659a807f78df1be418c92c96ace24794
+    - name: MiniPrinceMan_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 10
+        y: 1
+        width: 12
+        height: 15
+      spriteId: 3abb0db180040d849be5690cd2f966c6
+    - name: MiniPrinceMan_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 9
+        y: 1
+        width: 14
+        height: 14
+      spriteId: 5762e641d0aeb11458577cdcf0d9a801
+    - name: MiniPrinceMan_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 5
+        y: 1
+        width: 18
+        height: 12
+      spriteId: 9bb5ebfae25f9d54cba3ad7c86ae2808
+    - name: MiniPrinceMan_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 3
+        y: 1
+        width: 20
+        height: 12
+      spriteId: 1b1e771bf5b78674c8f61d239d3833c3
+    - name: MiniPrinceMan_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 5
+        y: 1
+        width: 21
+        height: 8
+      spriteId: e316575d0d34fbd4492fccc652fa1e2c
+    - name: MiniPrinceMan_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 4
+        y: 1
+        width: 22
+        height: 8
+      spriteId: ce9556ffba3a5414293ed12dd211fcdd
+    - name: MiniPrinceMan_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 4
+        y: 1
+        width: 22
+        height: 7
+      spriteId: 651e57a49de6604439a19abfbbc63227
+    - name: MiniPrinceMan_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 10
+        y: 1
+        width: 12
+        height: 15
+      spriteId: 73753f4d12d88344685ceed129a0ee33
+    - name: MiniPrinceMan_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 9
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 6dcf917ea0809fb419bcbc76948feac1
+    - name: MiniPrinceMan_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 8
+        y: 1
+        width: 14
+        height: 13
+      spriteId: e31e6ca72a1dbd94983200859403e994
+    - name: MiniPrinceMan_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 9
+        y: 1
+        width: 17
+        height: 13
+      spriteId: f74b3dc7ece336f4b97d5020b68460d2
+    - name: MiniPrinceMan_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 10
+        y: 1
+        width: 19
+        height: 13
+      spriteId: 20f471a93c334cc4095808aee1bfd81b
+    - name: MiniPrinceMan_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 11
+        y: 1
+        width: 18
+        height: 13
+      spriteId: cca32f1ad4343434cb7d948bfa5e9e5a
+    - name: MiniPrinceMan_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 11
+        y: 1
+        width: 14
+        height: 13
+      spriteId: f5bba2ac1651d504994cb8961a36ac48
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}
