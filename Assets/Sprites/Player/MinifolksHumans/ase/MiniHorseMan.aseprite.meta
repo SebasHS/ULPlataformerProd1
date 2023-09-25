@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: 0a2998dd67ef98b4a9117a99b07db470
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: MiniHorseMan_Frame_0
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 126
+      width: 17
+      height: 24
+    spriteID: d076b8c2bac6e2949a301ecbf965f7b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 126}
+  - name: MiniHorseMan_Frame_1
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 158
+      width: 17
+      height: 24
+    spriteID: e2269adc369d479478e50016aebc279e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 158}
+  - name: MiniHorseMan_Frame_2
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 190
+      width: 17
+      height: 24
+    spriteID: 36d6a31d2472baf489648ae178ff3831
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 190}
+  - name: MiniHorseMan_Frame_3
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 222
+      width: 17
+      height: 24
+    spriteID: fd356d58ff3cc104383221f4cec5a1fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 222}
+  - name: MiniHorseMan_Frame_4
+    originalName: 
+    pivot: {x: 0.47826087, y: -0.04}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 23
+      height: 25
+    spriteID: 10039896a0055b94ca2755d18263c43b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: MiniHorseMan_Frame_5
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.04}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 106
+      width: 22
+      height: 25
+    spriteID: 17a7ea8ed6f63864994206198c3db050
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 106}
+  - name: MiniHorseMan_Frame_6
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 37
+      width: 22
+      height: 26
+    spriteID: 44b941f6867e40246894b04e502ad7c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 37}
+  - name: MiniHorseMan_Frame_7
+    originalName: 
+    pivot: {x: 0.47619048, y: -0.037037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 71
+      width: 21
+      height: 27
+    spriteID: 5eafa713cd497934cb327624a2f2c862
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 71}
+  - name: MiniHorseMan_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 171
+      width: 22
+      height: 23
+    spriteID: aa9c423a6d4cf1b4284ac3dedd517809
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 171}
+  - name: MiniHorseMan_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 139
+      width: 22
+      height: 24
+    spriteID: a5385494d850ee840a34b61d7d6d37e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 139}
+  - name: MiniHorseMan_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 71
+      width: 16
+      height: 24
+    spriteID: be4b4e9a61fc07d489e13ddf7a761998
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 71}
+  - name: MiniHorseMan_Frame_11
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 39
+      width: 17
+      height: 24
+    spriteID: 344a0c98b096e864cbae91d255190d93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 39}
+  - name: MiniHorseMan_Frame_12
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 33
+      width: 18
+      height: 19
+    spriteID: 93e62ad4676079445ab5ef161f449135
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 33}
+  - name: MiniHorseMan_Frame_13
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 199
+      width: 17
+      height: 19
+    spriteID: c0a45792192b40c4294b6a2a6f167add
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 199}
+  - name: MiniHorseMan_Frame_14
+    originalName: 
+    pivot: {x: 0.40909094, y: -0.055555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 234
+      width: 22
+      height: 18
+    spriteID: 31788ba23f4dfe8498e4a95c1c7085a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 234}
+  - name: MiniHorseMan_Frame_15
+    originalName: 
+    pivot: {x: 0.375, y: -0.055555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 4
+      width: 24
+      height: 18
+    spriteID: bd1a03a0a16dbd948bd55bcba1bb6025
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 4}
+  - name: MiniHorseMan_Frame_16
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.055555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 60
+      width: 19
+      height: 18
+    spriteID: 089585b2ca9cf46499936bde0ee8dfdc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 60}
+  - name: MiniHorseMan_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 103
+      width: 16
+      height: 24
+    spriteID: 69349f260d837c84686b59a5bea2c89e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 103}
+  - name: MiniHorseMan_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 202
+      width: 20
+      height: 24
+    spriteID: cd9115b13d1944c489c99332a2edb0c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 202}
+  - name: MiniHorseMan_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 30
+      width: 18
+      height: 24
+    spriteID: 042321efb10a1c14d804d5b0f79218dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 30}
+  - name: MiniHorseMan_Frame_20
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 62
+      width: 18
+      height: 24
+    spriteID: c563963519bd90f49b52ce79bb59e6e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 62}
+  - name: MiniHorseMan_Frame_21
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.037037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 4
+      width: 17
+      height: 27
+    spriteID: 80afdc6cd0f14ed46b804e6dad0f558d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 4}
+  - name: MiniHorseMan_Frame_22
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 4
+      width: 19
+      height: 21
+    spriteID: c1fc48b5bbbd67a48a8e2db97a423e1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 4}
+  - name: MiniHorseMan_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 135
+      width: 16
+      height: 24
+    spriteID: 8e2ad3ceb619dfe43a96e388704408dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 135}
+  - name: MiniHorseMan_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 167
+      width: 16
+      height: 24
+    spriteID: 781b3fbe92001574f88c6ad95ed328d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 167}
+  - name: MiniHorseMan_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 94
+      width: 18
+      height: 24
+    spriteID: 8237622fe93934c47ac317602181b93d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 94}
+  - name: MiniHorseMan_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 86
+      width: 20
+      height: 17
+    spriteID: f615e17ca8ee45349b9d838b7589de9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 86}
+  - name: MiniHorseMan_Frame_27
+    originalName: 
+    pivot: {x: 0.42105263, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 111
+      width: 19
+      height: 10
+    spriteID: 4dd6ddd66079b3c429235a5dd674831b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 111}
+  - name: MiniHorseMan_Frame_28
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 129
+      width: 25
+      height: 6
+    spriteID: 67f10dc06cb10574c9d4818eca514044
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 129}
+  - name: MiniHorseMan_Frame_29
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 143
+      width: 25
+      height: 6
+    spriteID: 48520489be0941446b72dec03afc4096
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 143}
+  - name: MiniHorseMan_Frame_30
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 157
+      width: 25
+      height: 6
+    spriteID: 680639e24068bc24e8e2c57b54930811
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 157}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -165984110
+    name: MiniHorseMan
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: MiniHorseMan_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 7
+        y: 1
+        width: 17
+        height: 24
+      spriteId: d076b8c2bac6e2949a301ecbf965f7b0
+    - name: MiniHorseMan_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 7
+        y: 1
+        width: 17
+        height: 24
+      spriteId: e2269adc369d479478e50016aebc279e
+    - name: MiniHorseMan_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 7
+        y: 1
+        width: 17
+        height: 24
+      spriteId: 36d6a31d2472baf489648ae178ff3831
+    - name: MiniHorseMan_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 7
+        y: 1
+        width: 17
+        height: 24
+      spriteId: fd356d58ff3cc104383221f4cec5a1fe
+    - name: MiniHorseMan_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 5
+        y: 1
+        width: 23
+        height: 25
+      spriteId: 10039896a0055b94ca2755d18263c43b
+    - name: MiniHorseMan_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 6
+        y: 1
+        width: 22
+        height: 25
+      spriteId: 17a7ea8ed6f63864994206198c3db050
+    - name: MiniHorseMan_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 6
+        y: 1
+        width: 22
+        height: 26
+      spriteId: 44b941f6867e40246894b04e502ad7c0
+    - name: MiniHorseMan_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 6
+        y: 1
+        width: 21
+        height: 27
+      spriteId: 5eafa713cd497934cb327624a2f2c862
+    - name: MiniHorseMan_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 5
+        y: 1
+        width: 22
+        height: 23
+      spriteId: aa9c423a6d4cf1b4284ac3dedd517809
+    - name: MiniHorseMan_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 5
+        y: 1
+        width: 22
+        height: 24
+      spriteId: a5385494d850ee840a34b61d7d6d37e2
+    - name: MiniHorseMan_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 24
+      spriteId: be4b4e9a61fc07d489e13ddf7a761998
+    - name: MiniHorseMan_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 8
+        y: 1
+        width: 17
+        height: 24
+      spriteId: 344a0c98b096e864cbae91d255190d93
+    - name: MiniHorseMan_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 6
+        y: 1
+        width: 18
+        height: 19
+      spriteId: 93e62ad4676079445ab5ef161f449135
+    - name: MiniHorseMan_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 7
+        y: 1
+        width: 17
+        height: 19
+      spriteId: c0a45792192b40c4294b6a2a6f167add
+    - name: MiniHorseMan_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 7
+        y: 1
+        width: 22
+        height: 18
+      spriteId: 31788ba23f4dfe8498e4a95c1c7085a0
+    - name: MiniHorseMan_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 7
+        y: 1
+        width: 24
+        height: 18
+      spriteId: bd1a03a0a16dbd948bd55bcba1bb6025
+    - name: MiniHorseMan_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 7
+        y: 1
+        width: 19
+        height: 18
+      spriteId: 089585b2ca9cf46499936bde0ee8dfdc
+    - name: MiniHorseMan_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 24
+      spriteId: 69349f260d837c84686b59a5bea2c89e
+    - name: MiniHorseMan_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 6
+        y: 1
+        width: 20
+        height: 24
+      spriteId: cd9115b13d1944c489c99332a2edb0c7
+    - name: MiniHorseMan_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 7
+        y: 1
+        width: 18
+        height: 24
+      spriteId: 042321efb10a1c14d804d5b0f79218dc
+    - name: MiniHorseMan_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 6
+        y: 1
+        width: 18
+        height: 24
+      spriteId: c563963519bd90f49b52ce79bb59e6e0
+    - name: MiniHorseMan_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 8
+        y: 1
+        width: 17
+        height: 27
+      spriteId: 80afdc6cd0f14ed46b804e6dad0f558d
+    - name: MiniHorseMan_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 6
+        y: 1
+        width: 19
+        height: 21
+      spriteId: c1fc48b5bbbd67a48a8e2db97a423e1b
+    - name: MiniHorseMan_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 24
+      spriteId: 8e2ad3ceb619dfe43a96e388704408dc
+    - name: MiniHorseMan_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 24
+      spriteId: 781b3fbe92001574f88c6ad95ed328d7
+    - name: MiniHorseMan_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 7
+        y: 1
+        width: 18
+        height: 24
+      spriteId: 8237622fe93934c47ac317602181b93d
+    - name: MiniHorseMan_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 6
+        y: 1
+        width: 20
+        height: 17
+      spriteId: f615e17ca8ee45349b9d838b7589de9c
+    - name: MiniHorseMan_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 8
+        y: 1
+        width: 19
+        height: 10
+      spriteId: 4dd6ddd66079b3c429235a5dd674831b
+    - name: MiniHorseMan_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 6
+        y: 1
+        width: 25
+        height: 6
+      spriteId: 67f10dc06cb10574c9d4818eca514044
+    - name: MiniHorseMan_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 6
+        y: 1
+        width: 25
+        height: 6
+      spriteId: 48520489be0941446b72dec03afc4096
+    - name: MiniHorseMan_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 6
+        y: 1
+        width: 25
+        height: 6
+      spriteId: 680639e24068bc24e8e2c57b54930811
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

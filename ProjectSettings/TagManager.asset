@@ -5,8 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Platform
-  - ManaSprite
-  - HealthSprite
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -15,9 +14,8 @@ TagManager:
   - Water
   - UI
   - Ground
-  - Enemy
+  - Wall
   - Background
-  - 
   - 
   - 
   - 
