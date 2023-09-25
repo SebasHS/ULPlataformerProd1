@@ -178,11 +178,15 @@ public class PlayerMovement : MonoBehaviour
 
 }
 */
-
+using System.Collections;
+using System.Collections.Generic;
+using System.Net.WebSockets;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private Animator animator;
     private float horizontal;
     private float speed = 4f;
     private float jumpingPower = 10f;
@@ -196,6 +200,7 @@ public class PlayerMovement : MonoBehaviour
     private float wallJumpingTime = 0.2f;
     private float wallJumpingCounter;
     private float wallJumpingDuration = 0.4f;
+    public Transform playerTransform;
     private Vector2 wallJumpingPower = new Vector2(8f, 16f);
 
     [SerializeField] private Rigidbody2D rb;
@@ -203,18 +208,41 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask wallLayer;
+    [SerializeField] private float teleportDistance = 4f;
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     private void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
 
+        if(horizontal != 0f)
+        {
+            //Debug.Log("Running");
+            animator.SetBool("IsRunning", true);
+        }
+        else
+        {
+            //Debug.Log("Not running");
+            animator.SetBool("IsRunning", false);
+        }
+
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
+            //Debug.Log("Jumping");
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            animator.SetBool("IsJumping", true);
+            HealthSystem.Instance.RestoreMana(10f);
         }
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
+            //Debug.Log("Not jumping");
+            animator.SetBool("IsJumping", false);
+            animator.SetBool("IsRunning", false);
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
 
@@ -224,6 +252,11 @@ public class PlayerMovement : MonoBehaviour
         if (!isWallJumping)
         {
             Flip();
+        }
+
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            TeleportPlayer();
         }
     }
 
@@ -237,6 +270,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool IsGrounded()
     {
+        //Debug.Log("IsGrounded");
+        animator.SetBool("IsJumping", false);
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
@@ -251,9 +286,6 @@ public class PlayerMovement : MonoBehaviour
         {
             isWallSliding = true;
             rb.velocity = new Vector2(rb.velocity.x, -wallSlidingSpeed);//Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
-            Debug.Log("SLIDEEEE" + rb.velocity.x + " ----- " + rb.velocity.y );
-            Debug.Log(Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue) +  "********");
-            Debug.Log("MINIMUM: " + wallSlidingSpeed);
         }
         else
         {
@@ -307,6 +339,20 @@ public class PlayerMovement : MonoBehaviour
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
+        }
+    }
+
+    private void TeleportPlayer()
+    {
+        if (HealthSystem.Instance.manaPoint >= HealthSystem.Instance.maxManaPoint)
+        {
+            playerTransform.position = playerTransform.position + Vector3.right * teleportDistance;
+            HealthSystem.Instance.UseMana(HealthSystem.Instance.manaPoint);
+            Debug.Log("Mover");
+        }
+        else
+        {
+            Debug.Log("No tienes mana");
         }
     }
 }
