@@ -12,7 +12,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Midbackground
   - Water
   - UI
   - Ground
@@ -47,6 +47,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 2250490533
+    locked: 0
+  - name: Midbackground
+    uniqueID: 4204630571
     locked: 0
   - name: Tilemaps
     uniqueID: 359149951
