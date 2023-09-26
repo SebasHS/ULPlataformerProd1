@@ -6,7 +6,7 @@ public class PlayerHealth : MonoBehaviour
 {
 
 	public float health = 100;
-
+	[SerializeField] public GameObject pause;
 	//public GameObject deathEffect;
 
 	public void TakeDamage(float damage)
@@ -19,6 +19,7 @@ public class PlayerHealth : MonoBehaviour
 		if (health <= 0)
 		{
 			Debug.Log("Te moriste");
+			pause.SetActive(true);
 			//Die();
 		}
 	}

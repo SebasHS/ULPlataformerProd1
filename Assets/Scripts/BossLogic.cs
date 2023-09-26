@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class BossLogic : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     [SerializeField] private float rayDistance;
     [SerializeField] private Transform raycastPoint;
+    [SerializeField] private Aplastar aplastar_code;
 
     public Transform player;
     public float attackDamage = 0.5f;
-    public float enragedAttackDamage = 40;
-    public Vector3 attackOffset;
-    public float attackRange = 30f;
+    public float enragedAttackDamage = 0.7f;
+    public float attackCooldown = 0.30f;
     private Rigidbody2D rb;
     private float seguirX = 1;
+    
 
     RaycastHit2D hit;
     RaycastHit2D seguir;
@@ -25,31 +24,10 @@ public class BossLogic : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        hit = Physics2D.Raycast(
-            transform.position,
-            -transform.right,
-            3f
-        );
-
-        seguir = Physics2D.Raycast(
-            transform.position,
-            -transform.right,
-            10f
-        );
-
-        Debug.DrawRay( //Seguir
-            transform.position,
-            transform.right * -10f,
-            Color.blue
-        );
-
-        Debug.DrawRay( // hit
-            transform.position,
-            transform.right * -3f,
-            Color.red
-        );
-
+        //Aplastar aplastar_code = new Aplastar();
+        //aplastar_code = GetComponent<Aplastar>();
         attackDamage = 0.5f;
+        enragedAttackDamage = 0.7f;
     }
 
     // Update is called once per frame
@@ -62,6 +40,12 @@ public class BossLogic : MonoBehaviour
             3f
         );
 
+        Debug.DrawRay( // hit
+            transform.position,
+            transform.right * -3f,
+            Color.red
+        );
+
         seguir = Physics2D.Raycast(
             transform.position,
             -transform.right,
@@ -74,11 +58,6 @@ public class BossLogic : MonoBehaviour
             Color.blue
         );
 
-        Debug.DrawRay( // hit
-            transform.position,
-            transform.right * -3f,
-            Color.red
-        );
 
         LookAtPlayer();
         //Attack();
@@ -112,9 +91,19 @@ public class BossLogic : MonoBehaviour
             }
         }
 
-        if (hit)
+        if (hit && Time.time > attackCooldown)
         {
-            Attack();
+            Debug.Log("HIT");
+            Debug.Log(aplastar_code.enemyHealth);
+            if(aplastar_code.enemyHealth < 250)
+            {
+                Debug.Log("Enraged");
+                EnragedAttack();
+            }
+            else
+            {
+                Attack();
+            }
         }
     }
 
@@ -141,26 +130,11 @@ public class BossLogic : MonoBehaviour
     public void Attack()
     {
         player.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
-        Vector3 pos = transform.position;
-        pos += transform.right * attackOffset.x;
-        pos += transform.up * attackOffset.y;
-        //Debug.Log("POS :: " + pos);
-
-        //Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
-        //Debug.Log("Attack mask: " + attackMask);
     }
 
     public void EnragedAttack()
     {
-        /*Vector3 pos = transform.position;
-		pos += transform.right * attackOffset.x;
-		pos += transform.up * attackOffset.y;
-
-		Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
-		if (colInfo != null)
-		{
-			colInfo.GetComponent<PlayerHealth>().TakeDamage(enragedAttackDamage);
-		}*/
+        player.GetComponent<PlayerHealth>().TakeDamage(enragedAttackDamage);
     }
 
 }
