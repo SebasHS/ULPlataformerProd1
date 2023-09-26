@@ -54,6 +54,9 @@ TagManager:
   - name: Tilemaps
     uniqueID: 359149951
     locked: 0
+  - name: Candle
+    uniqueID: 258462995
+    locked: 0
   - name: Player
     uniqueID: 3156205509
     locked: 0
