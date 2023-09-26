@@ -294,10 +294,12 @@ public class PlayerMovement : MonoBehaviour
         {
             isWallSliding = true;
             rb.velocity = new Vector2(rb.velocity.x, -wallSlidingSpeed);//Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+            animator.SetBool("IsWallSliding", true);
         }
         else
         {
             isWallSliding = false;
+            animator.SetBool("IsWallSliding", false);
         }
     }
 
@@ -306,8 +308,11 @@ public class PlayerMovement : MonoBehaviour
         if (isWallSliding)
         {
             isWallJumping = false;
+            animator.SetBool("IsWallJumping", false);
+            animator.SetBool("IsWallSliding", true);
             wallJumpingDirection = -transform.localScale.x;
             wallJumpingCounter = wallJumpingTime;
+            
 
             CancelInvoke(nameof(StopWallJumping));
         }
@@ -321,6 +326,7 @@ public class PlayerMovement : MonoBehaviour
             isWallJumping = true;
             rb.velocity = new Vector2(wallJumpingDirection * wallJumpingPower.x, wallJumpingPower.y);
             wallJumpingCounter = 0f;
+            animator.SetBool("IsWallJumping",true);
 
             if (transform.localScale.x != wallJumpingDirection)
             {
@@ -337,6 +343,7 @@ public class PlayerMovement : MonoBehaviour
     private void StopWallJumping()
     {
         isWallJumping = false;
+        animator.SetBool("IsWallJumping", false);
     }
 
     private void Flip()

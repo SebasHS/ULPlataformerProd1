@@ -100,7 +100,7 @@ public class HealthSystem : MonoBehaviour
 	private void UpdateHealthBar()
 	{
 		float ratio = hitPoint / maxHitPoint;
-		//currentHealthBar.rectTransform.localPosition = new Vector3(currentHealthBar.rectTransform.rect.width * ratio - currentHealthBar.rectTransform.rect.width, 0, 0);
+		currentHealthBar.rectTransform.localPosition = new Vector3(currentHealthBar.rectTransform.rect.width * ratio - currentHealthBar.rectTransform.rect.width, 0, 0);
 		healthText.text = hitPoint.ToString("0") + "/" + maxHitPoint.ToString("0");
 	}
 
