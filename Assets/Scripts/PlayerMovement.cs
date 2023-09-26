@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     private float jumpingPower = 10f;
     private bool isFacingRight = true;
 
+    
+
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
 
@@ -30,10 +32,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private float teleportDistance = 4f;
+    public GameObject PantallaMuerte;
 
     void Start()
     {
         animator = GetComponent<Animator>();
+        PantallaMuerte.SetActive(false);
     }
 
     private void Update()
@@ -223,7 +227,9 @@ public class PlayerMovement : MonoBehaviour
     {
         Debug.Log("moriste");
         animator.SetBool("IsDying", true);
+        PantallaMuerte.SetActive(true);
         Invoke("RestartLevel",1.0f);
+        
     }
 
     private void RestartLevel()
