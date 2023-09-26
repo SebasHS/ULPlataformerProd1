@@ -45,7 +45,7 @@ public class PausaJuego : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GameManager.Instance.RestartLevel();
         ResumeGame();
     }
 

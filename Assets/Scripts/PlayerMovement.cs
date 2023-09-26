@@ -69,6 +69,8 @@ public class PlayerMovement : MonoBehaviour
 
         WallSlide();
         WallJump();
+        FallingDeath();
+        SuffocateDeath();
 
         if (!isWallJumping)
         {
@@ -193,6 +195,29 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("No tienes mana");
         }
     }
+
+    private void FallingDeath()
+    {
+        if(transform.position.y < -30f)
+        {
+            //Reinicia nivel. Proximamente pantalla de muerte
+            GameManager.Instance.RestartLevel();
+            return;
+        }
+    }
+
+    private void SuffocateDeath()
+    {
+        Vector2 playerPositiom = transform.position;
+
+        Collider2D hitCollider = Physics2D.OverlapPoint(playerPositiom, groundLayer);
+
+        if(hitCollider != null)
+        {
+            Debug.Log("Moriste por sofoco");
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.transform.CompareTag("Platform"))
