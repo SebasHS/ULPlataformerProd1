@@ -127,7 +127,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsWallSliding", true);
             wallJumpingDirection = -transform.localScale.x;
             wallJumpingCounter = wallJumpingTime;
-            
+
 
             CancelInvoke(nameof(StopWallJumping));
         }
@@ -141,7 +141,7 @@ public class PlayerMovement : MonoBehaviour
             isWallJumping = true;
             rb.velocity = new Vector2(wallJumpingDirection * wallJumpingPower.x, wallJumpingPower.y);
             wallJumpingCounter = 0f;
-            animator.SetBool("IsWallJumping",true);
+            animator.SetBool("IsWallJumping", true);
 
             if (transform.localScale.x != wallJumpingDirection)
             {
@@ -198,11 +198,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void FallingDeath()
     {
-        if(transform.position.y < -30f)
+        if (transform.position.y < -30f)
         {
             //Reinicia nivel. Proximamente pantalla de muerte
             animator.SetBool("IsDying", true);
-            //yield return new WaitForSeconds(0.5f);
             GameManager.Instance.RestartLevel();
             return;
         }
@@ -214,12 +213,23 @@ public class PlayerMovement : MonoBehaviour
 
         Collider2D hitCollider = Physics2D.OverlapPoint(playerPositiom, groundLayer);
 
-        if(hitCollider != null)
+        if (hitCollider != null)
         {
-            Debug.Log("Moriste por sofoco");
+            DiePlayer();
         }
     }
 
+    public void DiePlayer()
+    {
+        Debug.Log("moriste");
+        animator.SetBool("IsDying", true);
+        Invoke("RestartLevel",1.0f);
+    }
+
+    private void RestartLevel()
+    {
+        GameManager.Instance.RestartLevel();
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.transform.CompareTag("Platform"))
