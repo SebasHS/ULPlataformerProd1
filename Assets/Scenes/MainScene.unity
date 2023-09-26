@@ -26658,7 +26658,7 @@ SpriteRenderer:
   m_SortingLayerID: -1138761787
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1675907845, guid: 771a348f5959c3c42a64ee42e914b6a5, type: 3}
+  m_Sprite: {fileID: 4320010084133899996, guid: 52d40d1d463a123498d838dd108b712a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -26705,6 +26705,7 @@ MonoBehaviour:
   attackDamage: 0
   enragedAttackDamage: 40
   attackCooldown: 0.3
+  dying: 0
   isFlipped: 0
 --- !u!1 &1299960428
 GameObject:
@@ -28839,6 +28840,7 @@ MonoBehaviour:
   attackDamage: 0.5
   enragedAttackDamage: 40
   attackCooldown: 0.3
+  dying: 0
   isFlipped: 0
 --- !u!4 &1874844886
 Transform:

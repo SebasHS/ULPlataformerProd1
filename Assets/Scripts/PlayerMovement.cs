@@ -201,6 +201,8 @@ public class PlayerMovement : MonoBehaviour
         if(transform.position.y < -30f)
         {
             //Reinicia nivel. Proximamente pantalla de muerte
+            animator.SetBool("IsDying", true);
+            //yield return new WaitForSeconds(0.5f);
             GameManager.Instance.RestartLevel();
             return;
         }

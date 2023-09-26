@@ -8,12 +8,15 @@ public class BossLogic : MonoBehaviour
     [SerializeField] private Transform raycastPoint;
     [SerializeField] private Aplastar aplastar_code;
 
+    private Animator animator;
     public Transform player;
     public float attackDamage = 1f;
     public float enragedAttackDamage = 2f;
     public float attackCooldown = 0.30f;
     private Rigidbody2D rb;
     private float seguirX = 1;
+
+    public bool dying = false;
     
 
     RaycastHit2D hit;
@@ -28,6 +31,7 @@ public class BossLogic : MonoBehaviour
         //aplastar_code = GetComponent<Aplastar>();
         attackDamage = 1f;
         enragedAttackDamage = 2f;
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -87,6 +91,7 @@ public class BossLogic : MonoBehaviour
                     0f,
                     rb.velocity.y
                 );
+                animator.SetBool("IsAttacking", false);
                 //LookAtPlayer();
             }
         }
@@ -94,6 +99,7 @@ public class BossLogic : MonoBehaviour
         if (hit && attackCooldown <= 0f)
         {
             Debug.Log("HIT");
+            animator.SetBool("IsAttacking", true);
             Debug.Log(aplastar_code.enemyHealth);
             if(aplastar_code.enemyHealth <= 300)
             {
@@ -108,6 +114,7 @@ public class BossLogic : MonoBehaviour
         }
         else
         {
+            //animator.SetBool("IsAttacking", false);
             attackCooldown -= Time.deltaTime;
         }
     }
