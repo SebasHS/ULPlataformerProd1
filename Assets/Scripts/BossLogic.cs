@@ -9,8 +9,8 @@ public class BossLogic : MonoBehaviour
     [SerializeField] private Aplastar aplastar_code;
 
     public Transform player;
-    public float attackDamage = 0.5f;
-    public float enragedAttackDamage = 0.7f;
+    public float attackDamage = 1f;
+    public float enragedAttackDamage = 2f;
     public float attackCooldown = 0.30f;
     private Rigidbody2D rb;
     private float seguirX = 1;
@@ -26,8 +26,8 @@ public class BossLogic : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         //Aplastar aplastar_code = new Aplastar();
         //aplastar_code = GetComponent<Aplastar>();
-        attackDamage = 0.5f;
-        enragedAttackDamage = 0.7f;
+        attackDamage = 1f;
+        enragedAttackDamage = 2f;
     }
 
     // Update is called once per frame
@@ -91,11 +91,11 @@ public class BossLogic : MonoBehaviour
             }
         }
 
-        if (hit && Time.time > attackCooldown)
+        if (hit && attackCooldown <= 0f)
         {
             Debug.Log("HIT");
             Debug.Log(aplastar_code.enemyHealth);
-            if(aplastar_code.enemyHealth < 250)
+            if(aplastar_code.enemyHealth <= 300)
             {
                 Debug.Log("Enraged");
                 EnragedAttack();
@@ -104,6 +104,11 @@ public class BossLogic : MonoBehaviour
             {
                 Attack();
             }
+            attackCooldown = 0.3f;
+        }
+        else
+        {
+            attackCooldown -= Time.deltaTime;
         }
     }
 
