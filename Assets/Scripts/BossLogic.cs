@@ -8,7 +8,7 @@ public class BossLogic : MonoBehaviour
     [SerializeField] private Transform raycastPoint;
     [SerializeField] private Aplastar aplastar_code;
 
-    private Animator animator;
+    public Animator animator;
     public Transform player;
     public float attackDamage = 1f;
     public float enragedAttackDamage = 2f;
