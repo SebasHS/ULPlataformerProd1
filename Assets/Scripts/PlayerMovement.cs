@@ -211,9 +211,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (transform.position.y < -30f)
         {
-            //Reinicia nivel. Proximamente pantalla de muerte
-            animator.SetBool("IsDying", true);
-            GameManager.Instance.RestartLevel();
+            DiePlayer();
 
             return;
         }
@@ -238,16 +236,18 @@ public class PlayerMovement : MonoBehaviour
 
     public void DiePlayer()
     {
-        Debug.Log("moriste");
+        Time.timeScale = 0.2f;
         animator.SetBool("IsDying", true);
-        Invoke("ShowDeadScreen", 1.0f);
-        Invoke("RestartLevel", 3.0f);
+        Invoke("ShowDeadScreen", 0.2f);
+        Invoke("RestartLevel", 0.6f);
 
     }
 
     private void RestartLevel()
     {
         GameManager.Instance.RestartLevel();
+        Time.timeScale = 1f;
+
     }
 
 }
