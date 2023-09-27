@@ -22,6 +22,7 @@ public class SmallEnemyLogic : MonoBehaviour
 
     void Start()
     {
+        attackDamage = 0.5f;
         rb = GetComponent<Rigidbody2D>();
         if (player == null)
         {
@@ -35,7 +36,7 @@ public class SmallEnemyLogic : MonoBehaviour
         Debug.DrawRay(transform.position, transform.right * -3f, Color.red);
 
         seguir = Physics2D.Raycast(transform.position, -transform.right, 10f);
-        Debug.DrawRay(transform.position, transform.right * -10f, Color.blue);
+        //Debug.DrawRay(transform.position, transform.right * -10f, Color.blue);
 
         LookAtPlayer();
 
@@ -62,7 +63,7 @@ public class SmallEnemyLogic : MonoBehaviour
 
         if (hit.collider != null && hit.collider.gameObject != null && hit.collider.gameObject.CompareTag("Player") && attackCooldown <= 0f)
         {
-            Debug.Log("HIT");
+            Debug.Log("HIT Enemy");
             Attack();
             attackCooldown = 0.3f;
         }
@@ -93,6 +94,7 @@ public class SmallEnemyLogic : MonoBehaviour
 
     public void Attack()
     {
+        Debug.Log("Attack small");
         player.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
     }
 }
