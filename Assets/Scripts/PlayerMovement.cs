@@ -64,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
             //Debug.Log("Jumping");
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
             animator.SetBool("IsJumping", true);
-            HealthSystem.Instance.RestoreMana(10f);
+            
         }
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)

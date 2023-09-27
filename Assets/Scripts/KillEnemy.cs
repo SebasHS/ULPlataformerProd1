@@ -22,7 +22,9 @@ public class PlayerJumpOnEnemy : MonoBehaviour
             if (rb.velocity.y <= 0 && transform.position.y - minimumHeight > collision.transform.position.y)
             {
                 // Destruye el enemigo
+                HealthSystem.Instance.RestoreMana(34f);
                 Destroy(collision.gameObject);
+                
             }
         }
     }
