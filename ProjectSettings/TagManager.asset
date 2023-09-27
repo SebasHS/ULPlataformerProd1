@@ -52,11 +52,14 @@ TagManager:
   - name: Midbackground
     uniqueID: 4204630571
     locked: 0
+  - name: Candle
+    uniqueID: 258462995
+    locked: 0
   - name: Tilemaps
     uniqueID: 359149951
     locked: 0
-  - name: Candle
-    uniqueID: 258462995
+  - name: Props
+    uniqueID: 2219692599
     locked: 0
   - name: Player
     uniqueID: 3156205509
