@@ -96,11 +96,12 @@ public class BossLogic : MonoBehaviour
             }
         }
 
-        if (hit.collider.gameObject.tag == "Player"  && attackCooldown <= 0f)
+        if (hit.collider != null && hit.collider.gameObject != null && hit.collider.gameObject.CompareTag("Player") && attackCooldown <= 0f)
         {
             Debug.Log("HIT");
             animator.SetBool("IsAttacking", true);
             Debug.Log(aplastar_code.enemyHealth);
+            
             if(aplastar_code.enemyHealth <= 300)
             {
                 Debug.Log("Enraged");
@@ -117,6 +118,7 @@ public class BossLogic : MonoBehaviour
             //animator.SetBool("IsAttacking", false);
             attackCooldown -= Time.deltaTime;
         }
+
     }
 
     public void LookAtPlayer()
