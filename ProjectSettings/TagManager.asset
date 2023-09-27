@@ -9,6 +9,7 @@ TagManager:
   - HealthSprite
   - ManaSprite
   - WeakPoint
+  - Enemy
   layers:
   - Default
   - TransparentFX

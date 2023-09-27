@@ -7,7 +7,6 @@ public class SmallEnemyLogic : MonoBehaviour
     [SerializeField] private float rayDistance;
     [SerializeField] private Transform raycastPoint;
 
-    public Animator animator;
     public Transform player;
     public float attackDamage = 0.5f; // Reducido para reflejar la potencia de un enemigo pequeño
     public float attackCooldown = 0.30f;
@@ -24,7 +23,10 @@ public class SmallEnemyLogic : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        if (player == null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player").transform;
+        }
     }
 
     void Update()
@@ -55,14 +57,12 @@ public class SmallEnemyLogic : MonoBehaviour
             else
             {
                 rb.velocity = new Vector2(0f, rb.velocity.y);
-                animator.SetBool("IsAttacking", false);
             }
         }
 
         if (hit.collider != null && hit.collider.gameObject != null && hit.collider.gameObject.CompareTag("Player") && attackCooldown <= 0f)
         {
             Debug.Log("HIT");
-            animator.SetBool("IsAttacking", true);
             Attack();
             attackCooldown = 0.3f;
         }

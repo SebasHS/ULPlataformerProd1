@@ -10,8 +10,6 @@ public class PowerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("incrementa");
-            HealthSystem.Instance.RestoreMana(IncreasingRate);
         }
 
     }

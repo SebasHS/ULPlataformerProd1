@@ -20,6 +20,7 @@ public class Aplastar : MonoBehaviour
         if(collision.gameObject.tag == "WeakPoint")
         {
             Debug.Log("Aplastado");
+            HealthSystem.Instance.RestoreMana(34f);
             aplastado(collision);
         }
     }
