@@ -1,6 +1,7 @@
  using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Aplastar : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class Aplastar : MonoBehaviour
     public float enemyHealth;
     public float damageFoot = 100f; 
     private GameObject enemy;
+    [SerializeField] public GameObject HealthBarBoss;
+    public Slider slider;
+
     [SerializeField] private BossLogic bossLogic_code;
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -23,6 +27,8 @@ public class Aplastar : MonoBehaviour
     {
         enemyHealth = 700f;
         enemy = GameObject.Find("Boss");
+        HealthBarBoss = GameObject.Find("HealthBarBoss");
+
     }
 
     void Update()
@@ -33,6 +39,7 @@ public class Aplastar : MonoBehaviour
     void aplastado(Collision2D collision)
     {
         enemyHealth -= damageFoot;
+        slider.value = enemyHealth; 
         if (enemyHealth <= 0)
         {
             bossLogic_code.animator.SetBool("IsDying", true);

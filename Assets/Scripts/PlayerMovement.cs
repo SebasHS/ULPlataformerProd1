@@ -13,10 +13,9 @@ public class PlayerMovement : MonoBehaviour
     private float jumpingPower = 10f;
     private bool isFacingRight = true;
 
-
-
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
+    public float wallSlideTime = 3f; // tres segundos
 
     private bool isWallJumping;
     private float wallJumpingDirection;
@@ -43,6 +42,11 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
+
+        if(IsGrounded())
+        {
+            wallSlideTime = 3f;
+        }
 
         if (horizontal != 0f)
         {
@@ -112,8 +116,27 @@ public class PlayerMovement : MonoBehaviour
         if (IsWalled() && !IsGrounded() && horizontal != 0f)
         {
             isWallSliding = true;
-            rb.velocity = new Vector2(rb.velocity.x, -wallSlidingSpeed);//Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+            rb.velocity = new Vector2(rb.velocity.x, -wallSlidingSpeed);
             animator.SetBool("IsWallSliding", true);
+            if(wallSlideTime > 0)
+            {
+                wallSlideTime -= Time.deltaTime;
+            }
+            else
+            {
+                isWallSliding = false;
+                animator.SetBool("IsWallSliding", false);
+                if(!isFacingRight)
+                {
+                    Debug.Log("MOver izquierda");
+                    playerTransform.position += new Vector3(0.1f, 0f, 0f);
+                }
+                else
+                {
+                    Debug.Log("Mover derecha");
+                    playerTransform.position += new Vector3(-0.1f, 0f, 0f);
+                }
+            }
         }
         else
         {
