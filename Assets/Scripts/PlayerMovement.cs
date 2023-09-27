@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     private float jumpingPower = 10f;
     private bool isFacingRight = true;
 
-    
+
 
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
@@ -180,24 +180,32 @@ public class PlayerMovement : MonoBehaviour
     {
         if (HealthSystem.Instance.manaPoint >= HealthSystem.Instance.maxManaPoint)
         {
+            animator.SetBool("IsTping", true);
             if (isFacingRight)
             {
                 playerTransform.position = playerTransform.position + Vector3.right * teleportDistance;
                 HealthSystem.Instance.UseMana(HealthSystem.Instance.manaPoint);
                 Debug.Log("tp derecha");
+                
             }
             else
             {
                 playerTransform.position = playerTransform.position + Vector3.left * teleportDistance;
                 HealthSystem.Instance.UseMana(HealthSystem.Instance.manaPoint);
                 Debug.Log("tp izquierda");
+                
             }
+            
 
         }
         else
         {
             Debug.Log("No tienes mana");
         }
+    }
+    private void TPPlayer()
+    {
+
     }
 
     private void FallingDeath()
@@ -207,7 +215,7 @@ public class PlayerMovement : MonoBehaviour
             //Reinicia nivel. Proximamente pantalla de muerte
             animator.SetBool("IsDying", true);
             GameManager.Instance.RestartLevel();
-            
+
             return;
         }
     }
@@ -224,7 +232,8 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void ShowDeadScreen(){
+    public void ShowDeadScreen()
+    {
         PantallaMuerte.SetActive(true);
     }
 
@@ -232,20 +241,14 @@ public class PlayerMovement : MonoBehaviour
     {
         Debug.Log("moriste");
         animator.SetBool("IsDying", true);
-        Invoke("ShowDeadScreen",1.0f);
-        Invoke("RestartLevel",3.0f);
-        
+        Invoke("ShowDeadScreen", 1.0f);
+        Invoke("RestartLevel", 3.0f);
+
     }
 
     private void RestartLevel()
     {
         GameManager.Instance.RestartLevel();
     }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.transform.CompareTag("Platform"))
-        {
-            Debug.Log("Mori xd");
-        }
-    }
+
 }
