@@ -26079,6 +26079,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: 0
   damageFoot: 100
+  bossLogic_code: {fileID: 1285997072}
 --- !u!1 &1119047599
 GameObject:
   m_ObjectHideFlags: 0
@@ -26682,6 +26683,7 @@ MonoBehaviour:
   rayDistance: 5
   raycastPoint: {fileID: 1865394509}
   aplastar_code: {fileID: 1112243315}
+  animator: {fileID: 0}
   player: {fileID: 1747437200}
   attackDamage: 0
   enragedAttackDamage: 40
@@ -28623,6 +28625,7 @@ MonoBehaviour:
   rayDistance: 0
   raycastPoint: {fileID: 1085923264}
   aplastar_code: {fileID: 0}
+  animator: {fileID: 0}
   player: {fileID: 1747437200}
   attackDamage: 0.5
   enragedAttackDamage: 40
