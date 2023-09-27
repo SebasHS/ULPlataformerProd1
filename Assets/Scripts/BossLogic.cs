@@ -15,6 +15,8 @@ public class BossLogic : MonoBehaviour
     public float attackCooldown = 0.30f;
     private Rigidbody2D rb;
     private float seguirX = 1;
+    public Color enragedColor;
+    private SpriteRenderer slimeRend;
 
     public bool dying = false;
     
@@ -32,6 +34,7 @@ public class BossLogic : MonoBehaviour
         attackDamage = 1f;
         enragedAttackDamage = 2f;
         animator = GetComponent<Animator>();
+        slimeRend = GetComponent<SpriteRenderer >();
     }
 
     // Update is called once per frame
@@ -105,6 +108,7 @@ public class BossLogic : MonoBehaviour
             if(aplastar_code.enemyHealth <= 300)
             {
                 Debug.Log("Enraged");
+                slimeRend.color = enragedColor;
                 EnragedAttack();
             }
             else
