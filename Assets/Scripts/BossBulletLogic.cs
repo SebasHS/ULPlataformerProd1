@@ -22,6 +22,22 @@ public class BossBulletLogic : MonoBehaviour
 
         float rot = Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rot + 90);
+
+
+        // Obtén el componente SpriteRenderer del objeto
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+
+        // Comprueba si se encontró un SpriteRenderer
+        if (spriteRenderer != null)
+        {
+            // Establece el Sorting Layer a "Player"
+            spriteRenderer.sortingLayerName = "Player";
+        }
+        else
+        {
+            // Si no se encontró un SpriteRenderer, muestra un mensaje de error
+            Debug.LogError("No se encontró un componente SpriteRenderer en este objeto.");
+        }
     }
 
     // Update is called once per frame
