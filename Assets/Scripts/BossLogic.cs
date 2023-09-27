@@ -96,7 +96,7 @@ public class BossLogic : MonoBehaviour
             }
         }
 
-        if (hit && attackCooldown <= 0f)
+        if (hit.collider.gameObject.tag == "Player"  && attackCooldown <= 0f)
         {
             Debug.Log("HIT");
             animator.SetBool("IsAttacking", true);
