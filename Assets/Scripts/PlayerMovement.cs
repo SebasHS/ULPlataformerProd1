@@ -81,10 +81,18 @@ public class PlayerMovement : MonoBehaviour
             Flip();
         }
 
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.T) && HealthSystem.Instance.manaPoint >= HealthSystem.Instance.maxManaPoint)
         {
-            TeleportPlayer();
+            animator.SetBool("IsTping", true);
+            //TeleportPlayer();
+            Invoke("TeleportPlayer", 0.2f);
+            
         }
+    }
+    private void StopTP()
+    {
+        animator.SetBool("IsTping", false);
+
     }
 
     private void FixedUpdate()
@@ -178,9 +186,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void TeleportPlayer()
     {
-        if (HealthSystem.Instance.manaPoint >= HealthSystem.Instance.maxManaPoint)
-        {
-            animator.SetBool("IsTping", true);
+     
+          
             if (isFacingRight)
             {
                 playerTransform.position = playerTransform.position + Vector3.right * teleportDistance;
@@ -196,18 +203,10 @@ public class PlayerMovement : MonoBehaviour
                 
             }
             
-
-        }
-        else
-        {
-            Debug.Log("No tienes mana");
-        }
-    }
-    private void TPPlayer()
-    {
+            animator.SetBool("IsTping",false);
 
     }
-
+  
     private void FallingDeath()
     {
         if (transform.position.y < -30f)
